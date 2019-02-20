@@ -23,10 +23,9 @@
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "مشارکت": "مشارکت",
+      "مقالات": "مقالات",
+      "کتابچه": "کتابچه"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
