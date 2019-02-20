@@ -113,3 +113,12 @@ span.arrow-next {
   position: relative;
   top: 2px;
 }
+
+blockquote {
+  border-left: none;
+  border-right: 8px solid #ffe564;
+}
+
+.fixedHeaderContainer header .headerTitleWithLogo {
+  display: none;
+}

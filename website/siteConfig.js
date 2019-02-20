@@ -19,7 +19,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'JSBooklet',
-  organizationName: 'IranJS',
+  organizationName: 'IranJS.com',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -37,9 +37,9 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/jsbooklet.png',
+  footerIcon: 'img/jsbooklet.png',
+  favicon: 'img/jsbooklet.png',
 
   /* Colors for website */
   colors: {
