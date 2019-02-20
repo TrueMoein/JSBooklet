@@ -29,7 +29,20 @@
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {}
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+  .toc {
+    padding: 40px 8px;
+  }
+  .onPageNav > .toc-headings {
+    border-right: 1px solid #e0e0e0;
+    border-left: none;
+    padding: 10px 15px 2px 2px;
+  }
+  .docMainWrapper > *:first-child {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+}
 
 @media only screen and (max-width: 1023px) {}
 
@@ -51,4 +64,28 @@ pre,
 code {
   direction: ltr;
   text-align: left;
+}
+
+header .edit-page-link {
+  float: left;
+}
+
+.hash-link {
+  margin-left: 0;
+  padding-left: 4px;
+  padding-right: 0;
+  margin-right: -20px;
+}
+
+.docMainWrapper {
+  direction: rtl;
+}
+
+.collapsible .arrow {
+  float: left;
+  transform: rotate(-90deg);
+}
+
+.collapsible .arrow.rotate {
+  transform: rotate(-180deg);
 }

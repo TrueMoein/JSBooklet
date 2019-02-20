@@ -5,32 +5,23 @@
     "previous": "Previous",
     "tagline": "مقالات و آموزش های JavaScript",
     "docs": {
-      "doc2": {
-        "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
+      "Introduction": {
+        "title": "معرفی جاوا‌اسکریپت",
+        "sidebar_label": "معرفی جاوا‌اسکریپت"
       },
       "Events": {
         "title": "رویدادها (Events)",
         "sidebar_label": "رویدادها (Events)"
-      },
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
       }
     },
     "links": {
       "مشارکت": "مشارکت",
       "مقالات": "مقالات",
-      "کتابچه": "کتابچه"
+      "کتابچه JS": "کتابچه JS"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "معرفی": "معرفی",
+      "مقدماتی": "مقدماتی"
     }
   },
   "pages-strings": {

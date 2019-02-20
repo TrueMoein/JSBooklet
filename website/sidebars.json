@@ -1,10 +1,11 @@
 {
   "docs": {
-    "Docusaurus": ["Events"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "معرفی": [
+      "Introduction"
+    ],
+    "مقدماتی": [
+      "Events",
+      "Async"
+    ]
   }
 }

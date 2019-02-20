@@ -23,14 +23,17 @@ const siteConfig = {
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
-
+  // algolia: {
+  //   apiKey: 'my-api-key',
+  //   indexName: 'my-index-name',
+  //   algoliaOptions: {} // Optional, if provided by Algolia
+  // },
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    // {doc: 'doc4', label: 'API'},
+    // {search: true},
     {page: 'help', label: 'مشارکت'},
     {blog: true, label: 'مقالات'},
-    {doc: 'Events', label: 'کتابچه'},
-    // {search: true},
+    {doc: 'Introduction', label: 'کتابچه JS'},
   ],
 
   /* path to images for header/footer */
