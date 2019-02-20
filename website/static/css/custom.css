@@ -89,3 +89,27 @@ header .edit-page-link {
 .collapsible .arrow.rotate {
   transform: rotate(-180deg);
 }
+
+.docs-next {
+  float: left;
+}
+
+.docs-prev {
+  float: right;
+}
+
+span.arrow-prev {
+  display: inline-block;
+  transform: rotateZ(180deg);
+  padding-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+span.arrow-next {
+  display: inline-block;
+  transform: rotateZ(180deg);
+  padding-left: 5px;
+  position: relative;
+  top: 2px;
+}
