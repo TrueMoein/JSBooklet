@@ -41,3 +41,14 @@
 body {
   font-family: Sahel, Tahoma, Helvetica, sans-serif;
 }
+
+.mainContainer .wrapper {
+  text-align: right;
+  direction: rtl;
+}
+
+pre,
+code {
+  direction: ltr;
+  text-align: left;
+}

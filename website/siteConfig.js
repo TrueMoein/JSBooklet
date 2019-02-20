@@ -37,8 +37,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'دفترچه راهنمای JavaScript', // Title for your website.
-  tagline: 'آموزش فارسی جاوا اسکریپت',
+  title: 'JavaScript کتابچه', // Title for your website.
+  tagline: 'مقالات و آموزش های JavaScript',
   url: 'https://JSBooklet.ir', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -54,7 +54,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'Events', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
@@ -77,7 +77,7 @@ const siteConfig = {
   
   docsUrl: '',
   docsSideNavCollapsible: true,
-  editUrl: 'https://Github.com/TrueMoein/JSBooklet/docs/fa',
+  editUrl: 'https://github.com/TrueMoein/JSBooklet/tree/master/docs/',
 
   /* Custom fonts for website */
   /*
