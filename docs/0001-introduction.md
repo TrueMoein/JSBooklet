@@ -1,5 +1,5 @@
 ---
-id: 'Introduction'
+id: Introduction
 title: معرفی جاوا‌اسکریپت
 sidebar_label: معرفی جاوا‌اسکریپت
 ---
