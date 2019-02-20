@@ -78,6 +78,13 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
+  gaTrackingId: "UA-134867882-1",
+
+  scrollToTop: true,
+  scrollToTopOptions: {
+    zIndex: 100,
+  },
+
   // Open Graph and Twitter card images.
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
