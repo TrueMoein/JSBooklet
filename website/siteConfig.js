@@ -33,7 +33,7 @@ const siteConfig = {
     // {search: true},
     {page: 'help', label: 'مشارکت'},
     {blog: true, label: 'مقالات'},
-    {doc: 'Introduction', label: 'کتابچه JS'},
+    {doc: 'Introduction', label: 'کتابچه'},
   ],
 
   /* path to images for header/footer */
@@ -47,7 +47,6 @@ const siteConfig = {
     secondaryColor: '#f7b92a',
   },
   
-  docsUrl: '',
   docsSideNavCollapsible: true,
   editUrl: 'https://github.com/TrueMoein/JSBooklet/tree/master/docs/',
 
