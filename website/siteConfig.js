@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'JavaScript کتابچه', // Title for your website.
-  tagline: 'مقالات و آموزش های JavaScript',
+  title: 'کتابچه جاوااسکریپت', // Title for your website.
+  tagline: 'مقالات و آموزش های فارسی JavaScript',
   url: 'https://JSBooklet.ir', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -32,7 +32,7 @@ const siteConfig = {
   headerLinks: [
     // {search: true},
     {page: 'help', label: 'مشارکت'},
-    {blog: true, label: 'مقالات'},
+    {blog: true, label: 'وبلاگ'},
     {doc: 'javascript-introduction', label: 'کتابچه'},
   ],
 

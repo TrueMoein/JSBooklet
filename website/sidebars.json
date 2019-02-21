@@ -2,7 +2,8 @@
   "docs": {
     "JavaScript": [
       "javascript-introduction",
-      "javascript-ecmascript"
+      "javascript-ecmascript",
+      "javascript-es6"
     ],
     "TypeScript": [],
     "React": [],

@@ -1,9 +1,7 @@
-<div dir="rtl" style="font-family: IRANSans, tahoma">
+<div dir="rtl" style="Tahoma">
 
-# javascript-handbook-fa
+# کتابچه JavaScript
 
-کتابچه راهنمای جاوااسکریپت، نسخه فارسی
-
-[رویدادها (Events)](https://github.com/TrueMoein/javascript-handbook-fa/blob/master/Events.md)
+[وب سایت](https://JSBooklet.ir/)
 
 </div>

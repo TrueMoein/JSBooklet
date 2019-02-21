@@ -3,24 +3,24 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "مقالات و آموزش های JavaScript",
+    "tagline": "مقالات و آموزش های فارسی JavaScript",
     "docs": {
       "javascript-ecmascript": {
         "title": "اکمااسکریپت",
         "sidebar_label": "ECMAScript"
       },
+      "javascript-es6": {
+        "title": "ES6 | ES2015",
+        "sidebar_label": "ES6"
+      },
       "javascript-introduction": {
         "title": "معرفی جاوا‌اسکریپت",
         "sidebar_label": "معرفی Javascript"
-      },
-      "test": {
-        "title": "اکمااسکریپت",
-        "sidebar_label": "mine"
       }
     },
     "links": {
       "مشارکت": "مشارکت",
-      "مقالات": "مقالات",
+      "وبلاگ": "وبلاگ",
       "کتابچه": "کتابچه"
     },
     "categories": {
