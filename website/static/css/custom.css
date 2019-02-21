@@ -139,9 +139,13 @@ blockquote {
   display: none;
 }
 
-a, a:hover {
+a {
   color: #ffa700;
   text-decoration: none;
+}
+
+a:hover {
+  color: #ff8d00;
 }
 
 table {
