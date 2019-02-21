@@ -1,12 +1,11 @@
 {
   "docs": {
-    "معرفی": [
-      "Introduction",
-      "ECMAScript"
+    "JavaScript": [
+      "javascript-introduction",
+      "javascript-ecmascript"
     ],
-    "مقدماتی": [
-      "Events",
-      "Async"
-    ]
+    "TypeScript": [],
+    "React": [],
+    "Vue.js": []
   }
 }

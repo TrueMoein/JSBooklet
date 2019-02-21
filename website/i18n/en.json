@@ -5,21 +5,17 @@
     "previous": "Previous",
     "tagline": "مقالات و آموزش های JavaScript",
     "docs": {
-      "Introduction": {
-        "title": "معرفی جاوا‌اسکریپت",
-        "sidebar_label": "معرفی Javascript"
-      },
-      "ECMAScript": {
+      "javascript-ecmascript": {
         "title": "اکمااسکریپت",
         "sidebar_label": "ECMAScript"
       },
-      "Async": {
-        "title": "نمیدونم هنوز",
-        "sidebar_label": "برنامه های من"
+      "javascript-introduction": {
+        "title": "معرفی جاوا‌اسکریپت",
+        "sidebar_label": "معرفی Javascript"
       },
-      "Events": {
-        "title": "رویدادها (Events)",
-        "sidebar_label": "رویدادها (Events)"
+      "test": {
+        "title": "اکمااسکریپت",
+        "sidebar_label": "mine"
       }
     },
     "links": {
@@ -28,8 +24,10 @@
       "کتابچه": "کتابچه"
     },
     "categories": {
-      "معرفی": "معرفی",
-      "مقدماتی": "مقدماتی"
+      "JavaScript": "JavaScript",
+      "TypeScript": "TypeScript",
+      "React": "React",
+      "Vue.js": "Vue.js"
     }
   },
   "pages-strings": {

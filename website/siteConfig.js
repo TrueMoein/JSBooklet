@@ -33,7 +33,7 @@ const siteConfig = {
     // {search: true},
     {page: 'help', label: 'مشارکت'},
     {blog: true, label: 'مقالات'},
-    {doc: 'Introduction', label: 'کتابچه'},
+    {doc: 'javascript-introduction', label: 'کتابچه'},
   ],
 
   /* path to images for header/footer */

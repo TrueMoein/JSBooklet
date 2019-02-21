@@ -27,7 +27,23 @@
   font-weight: 900;
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {}
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  
+}
+
+@media only screen and (max-width: 735px) {
+  .docs-next {
+    clear: inherit;
+  }
+  .arrow-prev {
+    float: none;
+    margin-right: 0;
+  }
+  .arrow-next {
+    float: none;
+    margin-right: 0;
+  }
+}
 
 @media only screen and (min-width: 1024px) {
   .toc {
@@ -121,4 +137,13 @@ blockquote {
 
 .fixedHeaderContainer header .headerTitleWithLogo {
   display: none;
+}
+
+a, a:hover {
+  color: #ffa700;
+  text-decoration: none;
+}
+
+table {
+  display: inline-table;
 }
