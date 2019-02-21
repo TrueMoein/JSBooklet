@@ -1,7 +1,8 @@
 {
   "docs": {
     "معرفی": [
-      "Introduction"
+      "Introduction",
+      "ECMAScript"
     ],
     "مقدماتی": [
       "Events",

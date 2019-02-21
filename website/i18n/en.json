@@ -7,7 +7,11 @@
     "docs": {
       "Introduction": {
         "title": "معرفی جاوا‌اسکریپت",
-        "sidebar_label": "معرفی جاوا‌اسکریپت"
+        "sidebar_label": "معرفی Javascript"
+      },
+      "ECMAScript": {
+        "title": "اکمااسکریپت",
+        "sidebar_label": "ECMAScript"
       },
       "Async": {
         "title": "نمیدونم هنوز",
