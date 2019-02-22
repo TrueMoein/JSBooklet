@@ -1,5 +1,3 @@
-/* your custom css */
-
 @font-face {
   font-family: Sahel;
   src: url('../fonts/sahel/Sahel.eot');
@@ -43,6 +41,7 @@
     float: none;
     margin-right: 0;
   }
+  
 }
 
 @media only screen and (min-width: 1024px) {
@@ -60,7 +59,15 @@
   }
 }
 
-@media only screen and (max-width: 1023px) {}
+@media only screen and (max-width: 1023px) {
+  .navigationSlider .slidingNav ul li a {
+    color: #101010;
+  }
+
+  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a {
+    color: white;
+  }
+}
 
 @media only screen and (min-width: 1400px) {}
 
@@ -150,4 +157,22 @@ a:hover {
 
 table {
   display: inline-table;
+}
+
+.projectTitle {
+  line-height: 1.5em;
+}
+
+.projectTitle small {
+  font-size: 18px;
+}
+
+.pluginRowBlock a {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.homeSplashFade {
+  background-color: #f7c500;
+  direction: rtl;
 }
