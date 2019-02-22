@@ -12,7 +12,7 @@ class HomeSplash extends React.Component {
     );
 
     const PromoSection = props => (
-      <div className="section promoSection">
+      <div className="section promoSection" id="booklets">
         <div className="promoRow">
           <div className="pluginRowBlock">{props.children}</div>
         </div>
@@ -46,12 +46,14 @@ class HomeSplash extends React.Component {
 }
 
 const Booklet = ({booklet}) => (
-  <a
-    href={booklet.url}
-    className="booklet-flex col-xs-12 col-md-3 col-lg-4"
-    style={{backgroundImage: `url(${booklet.image})`}}
-  >
-  </a>
+  <div className="col-xs-6 col-md-3 col-lg-3 booklet-flex-box">
+    <a
+      href={booklet.url}
+      style={{backgroundImage: `url(${booklet.image})`}}
+      className="booklet-image-link"
+    >
+    </a>
+  </div>
 )
 
 class Index extends React.Component {
@@ -63,7 +65,7 @@ class Index extends React.Component {
       <div>
         <HomeSplash config={config}/>
         <div className="mainContainer">
-          <div className="wrapper" id="booklets">
+          <div className="wrapper">
             <div className="row">
               {booklets.map(b => (
                 <Booklet key={b.name} booklet={b} />

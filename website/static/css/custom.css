@@ -176,10 +176,17 @@ table {
   direction: rtl;
 }
 
-.booklet-flex {
-  height: 300px;
-  background-size: cover;
+.booklet-flex-box {
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.booklet-image-link{
+  height: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
+  display: block;
 }
 
 .nav-footer .sitemap a {
