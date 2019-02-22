@@ -46,8 +46,11 @@ class HomeSplash extends React.Component {
 }
 
 const Booklet = ({booklet}) => (
-  <a href={booklet.url}>
-    {booklet.name}
+  <a
+    href={booklet.url}
+    className="booklet-flex col-xs-12 col-md-3 col-lg-4"
+    style={{backgroundImage: `url(${booklet.image})`}}
+  >
   </a>
 )
 
@@ -59,10 +62,14 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash config={config}/>
-        <div className="mainContainer" id="booklets">
-          {booklets.map(b => (
-            <Booklet key={b.name} booklet={b} />
-          ))}
+        <div className="mainContainer">
+          <div className="wrapper" id="booklets">
+            <div className="row">
+              {booklets.map(b => (
+                <Booklet key={b.name} booklet={b} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     );

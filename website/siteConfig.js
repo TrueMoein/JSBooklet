@@ -1,3 +1,26 @@
+const booklets= [
+  {
+    name: "JavaScript",
+    image: "img/booklets/javascript.png",
+    url: "/booklets/javascript-introduction"
+  },
+  {
+    name: "TypeScript",
+    image: "img/booklets/typescript.png",
+    url: "/booklets/typescript-introduction"
+  },
+  {
+    name: "React",
+    image: "img/booklets/react.png",
+    url: "/booklets/react-introduction"
+  },
+  {
+    name: "Vue.js",
+    image: "img/booklets/vue.png",
+    url: "/booklets/vue-introduction"
+  },
+];
+
 const siteConfig = {
   title: 'کتابچه جاوااسکریپت',
   tagline: 'آموزش‌های فارسی جاوااسکریپت و محصولات مرتبط',
@@ -15,28 +38,7 @@ const siteConfig = {
 
   docsUrl: "booklets",
 
-  booklets: [
-    {
-      name: "JavaScript",
-      image: "img/booklets/javascript.png",
-      url: "/booklets/javascript-introduction"
-    },
-    {
-      name: "TypeScript",
-      image: "img/booklets/typescript.png",
-      url: "/booklets/javascript-introduction"
-    },
-    {
-      name: "React",
-      image: "img/booklets/react.png",
-      url: "/booklets/javascript-introduction"
-    },
-    {
-      name: "Vue.js",
-      image: "img/booklets/vue.png",
-      url: "/booklets/javascript-introduction"
-    },
-  ],
+  booklets,
 
   headerIcon: 'img/jsbooklet.png',
   footerIcon: 'img/jsbooklet.png',
@@ -57,6 +59,8 @@ const siteConfig = {
   },
 
   scripts: ['https://buttons.github.io/buttons.js'],
+
+  stylesheets: ['css/flexboxgrid.css'],
 
   onPageNav: 'separate',
   cleanUrl: true,
