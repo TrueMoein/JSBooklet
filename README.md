@@ -6,7 +6,7 @@
 
 <a href="https://JSBooklet.ir">وب سایت</a>
 
-<img src="design/JSBooklet.jpg" />
+<img width="300" src="design/JSBooklet.jpg" />
 
 </p>
 
