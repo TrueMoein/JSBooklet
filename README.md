@@ -4,8 +4,9 @@
 
 <p align="center">
 
-[وب سایت](https://JSBooklet.ir/)
-![JSBooklet.ir](design/JSBooklet.jpg)
+<a href="https://JSBooklet.ir">وب سایت</a>
+
+<img src="design/JSBooklet.jpg" />
 
 </p>
 
