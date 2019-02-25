@@ -12,7 +12,7 @@ class HomeSplash extends React.Component {
     );
 
     const PromoSection = props => (
-      <div className="section promoSection" id="booklets">
+      <div className="section promoSection">
         <div className="promoRow">
           <div className="pluginRowBlock">{props.children}</div>
         </div>
@@ -65,7 +65,23 @@ class Index extends React.Component {
       <div>
         <HomeSplash config={config}/>
         <div className="mainContainer">
+        <div className="goal-section">
           <div className="wrapper">
+            <div className="row">
+              <div className="col-md-7 col-xs-12">
+                <h1>هدف</h1>
+                <p>این روزها جاوااسکریپت به امپراطور وب تبدیل شده است.
+                  این که این زبان و فریمورک های مربوط به آن را یا د بگیریم، کمک بسیاری
+                  برای تبدیل شدن به یک همه فن حریف در وب به ما خواهد داد.
+                </p>
+              </div>
+              <div className="col-md-5 col-xs-12 booklet-image">
+                <img width="220" src="/img/booklets/JS-Book.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="wrapper" id="booklets">
             <div className="row">
               {booklets.map(b => (
                 <Booklet key={b.name} booklet={b} />

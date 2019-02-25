@@ -46,7 +46,7 @@ const siteConfig = {
 
   colors: {
     primaryColor: '#323330',
-    secondaryColor: '#f7b92a',
+    secondaryColor: '#f0db4f',
   },
   
   docsSideNavCollapsible: true,
