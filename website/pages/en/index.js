@@ -68,15 +68,16 @@ class Index extends React.Component {
         <div className="goal-section">
           <div className="wrapper">
             <div className="row">
-              <div className="col-md-7 col-xs-12">
+              <div className="col-md-7 col-xs-12 goal-text">
                 <h1>هدف</h1>
-                <p>این روزها جاوااسکریپت به امپراطور وب تبدیل شده است.
-                  این که این زبان و فریمورک های مربوط به آن را یا د بگیریم، کمک بسیاری
-                  برای تبدیل شدن به یک همه فن حریف در وب به ما خواهد داد.
+                <p>
+                    این روزها جاوااسکریپت به معروف‌ترین و پرکاربردترین زبان برنامه نویسی تبدیل شده.
+                    تقریبا هیچ کاری نیست که با این زبان نشه انجام داد.
+                    آقای <a href="https://en.wikipedia.org/wiki/Jeff_Atwood" target="_blank">Jeff Atwood</a> گفته "هر برنامه ای که بتوان با جاوااسکریپت نوشت، در نهایت با جاوااسکریپت نوشته خواهد شد."
                 </p>
               </div>
-              <div className="col-md-5 col-xs-12 booklet-image">
-                <img width="220" src="/img/booklets/JS-Book.png" />
+              <div className="col-md-5 col-xs-12 booklet-image hide-xs">
+                <img width="210" src="/img/booklets/JS-Book.png" alt="JSBooklet - کتابچه آموزش جاوااسکریپت" />
               </div>
             </div>
           </div>
