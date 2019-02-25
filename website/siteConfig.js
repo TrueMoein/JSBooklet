@@ -60,8 +60,6 @@ const siteConfig = {
 
   scripts: ['https://buttons.github.io/buttons.js'],
 
-  stylesheets: ['css/flexboxgrid.css'],
-
   onPageNav: 'separate',
   cleanUrl: true,
 
