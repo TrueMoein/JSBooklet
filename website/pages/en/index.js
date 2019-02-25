@@ -71,13 +71,13 @@ class Index extends React.Component {
               <div className="col-md-7 col-xs-12 goal-text">
                 <h1>هدف</h1>
                 <p>
-                    این روزها جاوااسکریپت به معروف‌ترین و پرکاربردترین زبان برنامه نویسی تبدیل شده.
+                    این روزها جاوا اسکریپت به معروف‌ترین و پرکاربردترین زبان برنامه نویسی تبدیل شده.
                     تقریبا هیچ کاری نیست که با این زبان نشه انجام داد.
-                    آقای <a href="https://en.wikipedia.org/wiki/Jeff_Atwood" target="_blank">Jeff Atwood</a> گفته "هر برنامه ای که بتوان با جاوااسکریپت نوشت، در نهایت با جاوااسکریپت نوشته خواهد شد."
+                    آقای <a href="https://en.wikipedia.org/wiki/Jeff_Atwood" target="_blank">Jeff Atwood</a> گفته "هر برنامه ای که بتوان با جاوا اسکریپت نوشت، در نهایت با جاوا اسکریپت نوشته خواهد شد."
                 </p>
               </div>
               <div className="col-md-5 col-xs-12 booklet-image hide-xs">
-                <img width="210" src="/img/booklets/JS-Book.png" alt="JSBooklet - کتابچه آموزش جاوااسکریپت" />
+                <img width="210" src="/img/booklets/JS-Book.png" alt="JSBooklet - کتابچه آموزش جاوا اسکریپت" />
               </div>
             </div>
           </div>

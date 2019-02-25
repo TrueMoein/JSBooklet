@@ -22,8 +22,8 @@ const booklets= [
 ];
 
 const siteConfig = {
-  title: 'کتابچه جاوااسکریپت',
-  tagline: 'آموزش‌های فارسی جاوااسکریپت و محصولات مرتبط',
+  title: 'کتابچه جاوا اسکریپت',
+  tagline: 'آموزش‌های فارسی جاوا اسکریپت و محصولات مرتبط',
   url: 'https://JSBooklet.ir',
   baseUrl: '/',
 
