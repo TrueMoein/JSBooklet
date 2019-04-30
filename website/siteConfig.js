@@ -58,7 +58,7 @@ const siteConfig = {
     theme: 'atom-one-dark',
   },
 
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: ['https://buttons.github.io/buttons.js', '/hotjar.js'],
 
   onPageNav: 'separate',
   cleanUrl: true,
